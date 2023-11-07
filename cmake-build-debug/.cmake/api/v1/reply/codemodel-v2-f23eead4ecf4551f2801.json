@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "imnodes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "colornode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-colornode-Debug-a7c73399448344163cc1.json",
+					"name" : "colornode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello-Debug-f3d6f946be87d9520a8c.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imnodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imnodes-Debug-3aa5fb225a5bbf103ed5.json",
+					"name" : "imnodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multieditor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multieditor-Debug-2396ece291ce3898d13d.json",
+					"name" : "multieditor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "saveload::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-saveload-Debug-85efc267aa7bd0e90930.json",
+					"name" : "saveload",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug",
+		"source" : "C:/Users/samuel.barnett/Documents/repos/imnodes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
