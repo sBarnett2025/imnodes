@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="imnodes"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\vcpkg\;CMake Files\vcpkg\scripts\;CMake Files\vcpkg\scripts\buildsystems\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\vcpkg_installed\;CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\;CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\;CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\imgui\;CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\sdl2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imnodes">
+				<Option output="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/imnodes.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_MAIN_HANDLED"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include/SDL2"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 imnodes"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imnodes/fast">
+				<Option output="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/imnodes.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_MAIN_HANDLED"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include/SDL2"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 imnodes/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colornode">
+				<Option output="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/colornode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_MAIN_HANDLED"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include/SDL2"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 colornode"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="colornode/fast">
+				<Option output="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/colornode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_MAIN_HANDLED"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include/SDL2"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 colornode/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multieditor">
+				<Option output="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/multieditor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_MAIN_HANDLED"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include/SDL2"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 multieditor"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multieditor/fast">
+				<Option output="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/multieditor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_MAIN_HANDLED"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include/SDL2"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 multieditor/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="saveload">
+				<Option output="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/saveload.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_MAIN_HANDLED"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include/SDL2"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 saveload"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="saveload/fast">
+				<Option output="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/saveload.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_MAIN_HANDLED"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include/SDL2"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 saveload/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello">
+				<Option output="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/hello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_MAIN_HANDLED"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include/SDL2"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 hello"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello/fast">
+				<Option output="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/hello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DSDL_MAIN_HANDLED"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include"/>
+					<Add directory="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/include/SDL2"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.37.32822\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 hello/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\samuel.barnett\Documents\repos\imnodes\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/example/color_node_editor.cpp">
+			<Option target="colornode"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/example/hello.cpp">
+			<Option target="hello"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/example/main.cpp">
+			<Option target="colornode"/>
+			<Option target="multieditor"/>
+			<Option target="saveload"/>
+			<Option target="hello"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/example/multi_editor.cpp">
+			<Option target="multieditor"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/example/save_load.cpp">
+			<Option target="saveload"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/imnodes.cpp">
+			<Option target="imnodes"/>
+			<Option target="colornode"/>
+			<Option target="multieditor"/>
+			<Option target="saveload"/>
+			<Option target="hello"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/imnodes.h">
+			<Option target="imnodes"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/imnodes_internal.h">
+			<Option target="imnodes"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/vcpkg.json">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/imgui/imgui-config.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\imgui\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/imgui/imgui-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\imgui\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/imgui/imgui-targets-release.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\imgui\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/imgui/imgui-targets.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\imgui\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/sdl2/SDL2Config.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\sdl2\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/sdl2/SDL2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\sdl2\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/sdl2/SDL2Targets-debug.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\sdl2\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/sdl2/SDL2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\sdl2\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/sdl2/SDL2Targets.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\sdl2\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/sdl2/SDL2mainTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\sdl2\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/sdl2/SDL2mainTargets-release.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\sdl2\"/>
+		</Unit>
+		<Unit filename="C:/Users/samuel.barnett/Documents/repos/imnodes/cmake-build-debug/vcpkg_installed/x64-windows/share/sdl2/SDL2mainTargets.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\vcpkg_installed\x64-windows\share\sdl2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
