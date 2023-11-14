@@ -83,6 +83,26 @@ int main(int, char**)
 
     ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
 
+
+    // Declare rect of square
+    SDL_Rect alRectangle;
+    SDL_Rect alRange;
+
+    int width = 1280;
+    int height = 720;
+    // Square dimensions: Half of the min(SCREEN_WIDTH, SCREEN_HEIGHT)
+    alRectangle.w = 50;
+    alRectangle.h = 50;
+    alRange.w = 250;
+    alRange.h = 250;
+
+    // Square position: In the middle of the screen
+    alRectangle.x = width / 2 - alRectangle.w / 2;
+    alRectangle.y = height / 2 - alRectangle.h / 2;
+    alRange.x = alRectangle.x - alRange.w / 2 + alRectangle.w / 2;
+    alRange.y = alRectangle.y - alRange.w / 2 + alRectangle.w / 2;
+
+
     // Main loop
     bool done = false;
     while (!done)
@@ -105,7 +125,14 @@ int main(int, char**)
 
         example::NodeEditorShow();
 
-        // Rendering
+        ImDrawList* dl = ImGui::GetForegroundDrawList();
+
+        ImVec2 offset(200, 200);
+        dl->AddRectFilled(offset, ImVec2(offset.x + 50, offset.y + 50), 0xFFFFFFFF);
+        dl->AddRect(ImVec2(offset.x - 100, offset.y - 100), ImVec2(offset.x + 150, offset.y + 150), 0xFFFFFFFF);
+        //dl->AddRectFilled(ImVec2(offset.x + 0, offset.y + 100), ImVec2(offset.x + 100, offset.y + 200), 0xFF000000);
+        //dl->AddLine(ImVec2(offset.x + 50, offset.y + 0), ImVec2(offset.x + 50, offset.y + 100), 0xFF0000FF);
+
         ImGui::Render();
         glViewport(0, 0, (int)io.DisplaySize.x, (int)io.DisplaySize.y);
         glClearColor(
@@ -115,6 +142,8 @@ int main(int, char**)
             clear_color.w);
         glClear(GL_COLOR_BUFFER_BIT);
         ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+
+
         SDL_GL_SwapWindow(window);
     }
 
